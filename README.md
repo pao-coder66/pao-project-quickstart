@@ -2,9 +2,9 @@
 
 一个用于**快速上手陌生代码仓库**的 Agent Skill：三步分析（整体架构 → 核心模块 → 维护方式），产出一份带双图的精炼中文 Markdown 入门指南。
 
-基于 [Sherenei/code_view_skill](https://github.com/Sherenei/code_view_skill)（codebase-onboarding）的三步走框架，叠加实战打磨的增强：
+核心特点：
 
-| 增强 | 说明 |
+| 特点 | 说明 |
 | --- | --- |
 | §1.6 请求路径时序图 | 文字链路 + Mermaid `sequenceDiagram`，`box rgb` 按架构层着色；参与者 ≤7、消息 ≤25 条 |
 | §2.0 整体架构视角 | 逐模块分析前先画 `flowchart` 架构图：分层 subgraph + `classDef` 颜色分块，节点标注小节编号，**领域层展开为与实际目录一一对应的子模块** |
@@ -34,10 +34,6 @@ git clone https://github.com/pao-coder66/pao-project-quickstart.git ~/.claude/sk
 2. 核心模块逐一剖析（**2.0 颜色分块架构图** → 各模块 Why / 原则 / 模式 / 文件分布）
 3. 项目维护方式（协作 / CI / 测试与评测门禁 / 质量 / 发布 / 文档 / 运维）
 4. 下一步建议（3-5 条带 file:line 的学习路径）
-
-## 致谢
-
-三步走框架与证据优先原则来自 [Sherenei/code_view_skill](https://github.com/Sherenei/code_view_skill)。
 
 ## License
 

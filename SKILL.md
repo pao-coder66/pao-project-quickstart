@@ -1,6 +1,6 @@
 ---
 name: "pao-project-quickstart"
-description: "当用户想快速上手/系统理解一个陌生代码仓库时使用。在 codebase-onboarding 三步分析（整体架构 → 核心模块 → 维护方式）基础上强化可视化：请求链路多颜色时序图 + 分层颜色分块架构图（领域层展开到子模块），产出精炼的中文 Markdown 入门指南。触发关键词：「快速上手这个项目」「带我熟悉这个仓库」「项目 quickstart」「分析这个项目」「onboarding」。"
+description: "当用户想快速上手/系统理解一个陌生代码仓库时使用。三步分析（整体架构 → 核心模块 → 维护方式）+ 双图可视化：请求链路多颜色时序图 + 分层颜色分块架构图（领域层展开到子模块），产出精炼的中文 Markdown 入门指南。触发关键词：「快速上手这个项目」「带我熟悉这个仓库」「项目 quickstart」「分析这个项目」「onboarding」。"
 version: 1.0.0
 ---
 
@@ -8,7 +8,7 @@ version: 1.0.0
 
 当用户希望系统地了解一个陌生的代码仓库时调用本 skill。**全程使用中文输出**，按三个步骤一次性完成分析，产出一份带双图（时序图 + 架构图）的 Markdown 入门指南。
 
-本 skill 基于 [Sherenei/code_view_skill](https://github.com/Sherenei/code_view_skill)（codebase-onboarding）的三步走框架，叠加以下实战打磨的增强：
+核心特点：
 
 1. **§1.6 请求路径总览**：文字链路 + 多颜色 Mermaid 时序图
 2. **§2.0 整体架构视角**：逐模块分析前先画分层颜色分块架构图，领域层展开为与实际目录一一对应的子模块
